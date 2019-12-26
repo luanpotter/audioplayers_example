@@ -1,13 +1,14 @@
 name: audioplayers_example
-description: A new Flutter project.
+description: This is an audioplayers example to test Flutter Web
 
-version: 1.0.0+1
+version: 0.1.0
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  audioplayers: 0.13.4
+  audioplayers:
+    path: ../audioplayers
   flutter:
     sdk: flutter
 
