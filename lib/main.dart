@@ -62,6 +62,31 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                FlatButton(
+                  child: Text('Volume 0'),
+                  onPressed: () => player.setVolume(0),
+                ),
+                FlatButton(
+                  child: Text('Volume 0.3'),
+                  onPressed: () => player.setVolume(0.3),
+                ),
+                FlatButton(
+                  child: Text('Volume 0.5'),
+                  onPressed: () => player.setVolume(0.5),
+                ),
+                FlatButton(
+                  child: Text('Volume 0.7'),
+                  onPressed: () => player.setVolume(0.7),
+                ),
+                FlatButton(
+                  child: Text('Volume 1.0'),
+                  onPressed: () => player.setVolume(1.0),
+                ),
+              ],
+            ),
             FlatButton(
               child: Text('Play'),
               onPressed: () => player.play(urls[0]),
